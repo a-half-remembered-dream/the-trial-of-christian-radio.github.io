@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>The Crimes of Christian Radio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/zenburn.css" rel="stylesheet">
+  <link href="css/grayscale.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">The Crimes of Christian Radio</a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#the-slander-title">The Slander</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#the-script-title">The Script</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#the-stats-title">The Stats</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#the-sentence">The Sentence</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">The <span class="blood-text">Crimes</span> Of Christian Radio</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- The Slander -->
+  <section id="the-slander" class="the-sentence-section text-center py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h2 class="text-black mb-4 goto" id="the-slander-title">The Sentence</h2>
+          <p class="text-black text-justify">
+            Accusations can be thrown around all day, but none of them will be meaningful without hard evidence. To test the sentence weighed against Christian radio, we need to find a way to gather some evidence. We need to know what songs are played on the stations, when they are played, and how often they are played. The 20th century way to do this would be to tune into the radio every few minutes to record what song is currently playing. There's nothing wrong with doing this, except for the fact that it will eat up a large chunk of the little time you have left in life, time that is every-so-slowly slipping through your fingers. So yeah, you may want to try it the modern way. The 21st century way of doing this is to turn to the time-saving wonders of automation.
+            <br><br>Despite popular belief, you do not have to surrender your soul to a machine to program a computer. Automating a computer-related task can be as simple as writing a small script.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Script -->
+  <section id="the-script" class="py-5">
+    <div class="container">
+      <!--Intro-->
+      <div class="row text-center">
+        <div class="col-lg-10 mx-auto">
+          <h2 class="mb-4 goto" id="the-script-title">The Script</h2>
+          <p class="text-justify">
+            Accusations can be thrown around all day, but none of them will be meaningful without hard evidence. To test the sentence weighed against Christian radio, we need to find a way to gather some evidence. We need to know what songs are played on the stations, when they are played, and how often they are played. The 20th century way to do this would be to tune into the radio every few minutes to record what song is currently playing. There's nothing wrong with doing this, except for the fact that it will eat up a large chunk of the little time you have left in life, time that is every-so-slowly slipping through your fingers. So yeah, you may want to try it the modern way. The 21st century way of doing this is to turn to the time-saving wonders of automation.
+            <br><br>Despite popular belief, you do not have to surrender your soul to a machine to program a computer. Automating a computer-related task can be as simple as writing a small script.
+            <br><br>
+          </p>
+        </div>
+      </div>
+      <!--Python code-->
+      <div class="row">
+        <div class="col">
+          <div class="highlight python"><pre class="p-4"><span></span><span class="k">def</span> <span class="nf">getRecentlyPlayedAIR1</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">PlayedSong</span><span class="p">]:</span>
+    <span class="sd">&quot;&quot;&quot;Get a list of Songs played.&quot;&quot;&quot;</span>
+
+    <span class="c1"># Output</span>
+    <span class="n">songsProcessed</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Get page</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">page</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">AIR1_URL_RECENTLY_PLAYED</span><span class="p">,</span> <span class="n">timeout</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+    <span class="k">except</span> <span class="n">requests</span><span class="o">.</span><span class="n">exceptions</span><span class="o">.</span><span class="n">Timeout</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;[-] Timeout getting Air1 songs.&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="p">[]</span>
+
+    <span class="c1"># Parse HTML</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">parser</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">page</span><span class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s1">&#39;html.parser&#39;</span><span class="p">)</span>
+        <span class="n">recently_played</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">,</span> <span class="n">attrs</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;class&#39;</span><span class="p">:</span> <span class="s1">&#39;recently-played-wrapper&#39;</span><span class="p">})</span>
+        <span class="n">songsRaw</span> <span class="o">=</span> <span class="n">recently_played</span><span class="o">.</span><span class="n">findAll</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">,</span> <span class="n">attrs</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;class&#39;</span><span class="p">:</span> <span class="s1">&#39;song-wrapper&#39;</span><span class="p">})</span>
+    <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[]</span>
+
+    <span class="c1"># Iterate through the extracted HTML sections</span>
+    <span class="n">titles</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">song</span> <span class="ow">in</span> <span class="n">songsRaw</span><span class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">field</span><span class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span class="n">field</span> <span class="ow">in</span> <span class="n">song</span><span class="o">.</span><span class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\r</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span> <span class="k">if</span> <span class="n">field</span><span class="o">.</span><span class="n">strip</span><span class="p">()]</span>
+        <span class="n">title</span><span class="p">,</span> <span class="n">artist</span><span class="p">,</span> <span class="n">album</span> <span class="o">=</span> <span class="n">data</span>
+        <span class="k">if</span> <span class="n">title</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">titles</span><span class="p">:</span>
+            <span class="c1"># print(&#39;PlayedSong:\n\ttitle: %s\n\tartist: %s\n\talbum: %s\n&#39; % (title, artist, album))</span>
+            <span class="n">titles</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">title</span><span class="p">)</span>
+            <span class="n">songsProcessed</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">PlayedSong</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">artist</span><span class="p">,</span> <span class="n">album</span><span class="p">,</span> <span class="s1">&#39;Air1&#39;</span><span class="p">))</span>
+
+    <span class="k">return</span> <span class="n">songsProcessed</span>
+</pre></div>
+        </div>
+      </div>
+      <!--HTML code-->
+      <div class="row">
+        <div class="col">
+          <div class="highlight"><pre class="p-4"><span></span><span class="ni">&lt;</span>div class=&quot;recently-played-wrapper mb-5&quot;<span class="ni">&gt;</span>
+                    <span class="ni">&lt;</span>div class=&quot;song-wrapper&quot; style=&quot;margin-bottom: 20px;&quot;<span class="ni">&gt;</span>
+                        <span class="ni">&lt;</span>div class=&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>div class=&quot;col-sm-4&quot;<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>div class=&quot;album-img w-100&quot;<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>img src=&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2720.jpg<span class="ni">&amp;</span>amp;s=250<span class="ni">&amp;</span>amp;&quot; class=&quot;img-responsive lazyload mh-75&quot; alt=&quot;Living Hope&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>div class=&quot;col-sm-8 text-container&quot;<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>div class=&quot;my-auto w-100&quot;<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>h4<span class="ni">&gt;</span>Till I Found You<span class="ni">&lt;</span>/h4<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>div class=&quot;artist&quot;<span class="ni">&gt;</span>
+                                            Phil Wickham
+                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>div class=&quot;albumTitle&quot;<span class="ni">&gt;</span>
+                                            Living Hope
+                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                    <span class="ni">&lt;</span>div class=&quot;song-wrapper&quot; style=&quot;margin-bottom: 20px;&quot;<span class="ni">&gt;</span>
+                        <span class="ni">&lt;</span>div class=&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>div class=&quot;col-sm-4&quot;<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>div class=&quot;album-img w-100&quot;<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>img src=&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2727.jpg<span class="ni">&amp;</span>amp;s=250<span class="ni">&amp;</span>amp;&quot; class=&quot;img-responsive lazyload mh-75&quot; alt=&quot;Wide Open&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>div class=&quot;col-sm-8 text-container&quot;<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>div class=&quot;my-auto w-100&quot;<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>h4<span class="ni">&gt;</span>Freedom Hymn<span class="ni">&lt;</span>/h4<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>div class=&quot;artist&quot;<span class="ni">&gt;</span>
+                                            Austin French
+                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>div class=&quot;albumTitle&quot;<span class="ni">&gt;</span>
+                                            Wide Open
+                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                    <span class="ni">&lt;</span>div class=&quot;song-wrapper&quot; style=&quot;margin-bottom: 20px;&quot;<span class="ni">&gt;</span>
+                        <span class="ni">&lt;</span>div class=&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>div class=&quot;col-sm-4&quot;<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>div class=&quot;album-img w-100&quot;<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>img src=&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2806.jpg<span class="ni">&amp;</span>amp;s=250<span class="ni">&amp;</span>amp;&quot; class=&quot;img-responsive lazyload mh-75&quot; alt=&quot;Haven&#39;t Seen It Yet (Single)&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>div class=&quot;col-sm-8 text-container&quot;<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>div class=&quot;my-auto w-100&quot;<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>h4<span class="ni">&gt;</span>Haven&#39;t Seen It Yet<span class="ni">&lt;</span>/h4<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>div class=&quot;artist&quot;<span class="ni">&gt;</span>
+                                            Danny Gokey
+                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>div class=&quot;albumTitle&quot;<span class="ni">&gt;</span>
+                                            Haven&#39;t Seen It Yet (Single)
+                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                    <span class="ni">&lt;</span>div class=&quot;song-wrapper&quot; style=&quot;margin-bottom: 20px;&quot;<span class="ni">&gt;</span>
+                        <span class="ni">&lt;</span>div class=&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>div class=&quot;col-sm-4&quot;<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>div class=&quot;album-img w-100&quot;<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>img src=&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2283.jpg<span class="ni">&amp;</span>amp;s=250<span class="ni">&amp;</span>amp;&quot; class=&quot;img-responsive lazyload mh-75&quot; alt=&quot;How Can It Be&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>div class=&quot;col-sm-8 text-container&quot;<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>div class=&quot;my-auto w-100&quot;<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>h4<span class="ni">&gt;</span>O&#39; Lord<span class="ni">&lt;</span>/h4<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>div class=&quot;artist&quot;<span class="ni">&gt;</span>
+                                            Lauren Daigle
+                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>div class=&quot;albumTitle&quot;<span class="ni">&gt;</span>
+                                            How Can It Be
+                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                    <span class="ni">&lt;</span>div class=&quot;song-wrapper&quot; style=&quot;margin-bottom: 20px;&quot;<span class="ni">&gt;</span>
+                        <span class="ni">&lt;</span>div class=&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>div class=&quot;col-sm-4&quot;<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>div class=&quot;album-img w-100&quot;<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>img src=&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2283.jpg<span class="ni">&amp;</span>amp;s=250<span class="ni">&amp;</span>amp;&quot; class=&quot;img-responsive lazyload mh-75&quot; alt=&quot;How Can It Be&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>div class=&quot;col-sm-8 text-container&quot;<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>div class=&quot;my-auto w-100&quot;<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>h4<span class="ni">&gt;</span>O&#39; Lord<span class="ni">&lt;</span>/h4<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>div class=&quot;artist&quot;<span class="ni">&gt;</span>
+                                            Lauren Daigle
+                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                        <span class="ni">&lt;</span>div class=&quot;albumTitle&quot;<span class="ni">&gt;</span>
+                                            How Can It Be
+                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+</pre></div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Stats -->
+  <section id="the-stats" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="mb-4 text-center goto" id="the-stats-title">The Stats</h2>
+          <p>
+            Here is a graph of the times where the song "Symphony" by the artist "Switch" was played on Air1.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <p class="text-justify">
+            As you can see, Air1 *loves* to play this song, to my pain. This graph confirms my theory that Air1 plays this song way too much. It's not that I'm choosing the wrong times to listen to the station (or that I'm plain crazy), but that Air1 has a problem.
+            There are a few points on the graph where the song is "played" almost back-to-back. These are errors in my song-stitching algorithm. Sometimes when the script checks the Air1 recently-added page, it adds a duplicate song. However, these errors are easy to spot.
+          </p>
+        </div>
+        <div class="col-6">
+          <img class="fit" src="graphs/Air1 frequency curve (small) - transparent.png" alt="Figure 1">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- The Transition -->
+  <div id="the-transition">
+
+  </div>
+
+  <!-- The Sentence -->
+  <section id="the-sentence" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Guilty!</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; Your Website 2019
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.js"></script>
+
+</body>
+
+</html>
