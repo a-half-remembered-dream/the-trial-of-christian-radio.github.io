@@ -8,6 +8,16 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  text-align: justify;
+}
+
+/*For code*/
+div.python.highlight pre {
+  font-size: 1.1rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
 #mainNav {
   min-height: 56px;
   background-color: #fff;
@@ -189,6 +199,21 @@ html {
 
 img.fit {
   max-width: 100%;
+  display: block;
+}
+
+@media (min-width: 576px) {
+  img.fit {
+    float: right;
+  }
+}
+
+@media (max-width: 576px) {
+  img.fit {
+    float: unset;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 body {
