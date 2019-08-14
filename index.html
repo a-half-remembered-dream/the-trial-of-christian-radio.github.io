@@ -76,8 +76,8 @@
         <h2 class="text-black mb-4 goto" id="the-slander-title">The Slander</h2>
         <p class="text-black text-justify">
           The Christian radio station Air1 has been slandered. I know ... I also cried when I heard the news. The world's most credible news
-          agency, the <a href="https://babylonbee.com">Babylon Bee</a>, has charged Christian radio with playing bland, repetitive music.
-          <a href="https://babylonbee.com/news/report-air1-still-top-alternative-good-music">Not once</a>,
+          agency, the <a href="https://babylonbee.com">Babylon Bee</a>, has charged Christian radio with playing bland, repetitive music,
+          <a href="https://babylonbee.com/news/report-air1-still-top-alternative-good-music">not once</a>,
           <a href="https://babylonbee.com/news/close-call-this-christian-radio-dj-accidentally-played-the-same-song-for-3-weeks-straight-but
           -luckily-no-one-noticed">not twice</a>, but <a href="https://babylonbee.com/news/christian-radio-station-threatens-to-play-good-
           good-father-on-repeat-until-pledge-drive-goal-is-met">three times</a>. These are serious accusations, and I guess they deserve our
@@ -101,9 +101,9 @@
           We must perform an experiment to either clear the name of Christian radio, or find a solution to improve it.
           The experiment needs to compare Air1 to other Christian radio stations and also to secular radio stations. With the help of
           computers,
-          I did this expirement. I chose KLOVE as a sample of Christian radio stations, and KISS FM - "Chicago's #1 Hit Music Station" - as
-          a sample of meaningless garbage ... I mean secular pop radio. My dependent variable was the various statistics on the songs they
-          play, which means I needed to find a way to monitor these three stations at the same time. To test the slanderous accusation
+          I did this experiment. I chose KLOVE as a sample of Christian radio stations, and KISS FM - "Chicago's #1 Hit Music Station" - as
+          a sample of meaningless garbage ... I mean secular pop radio. My dependent variables were all the songs that each station played
+          over a period of ten days, which meant I needed to find a way to monitor these three stations at the same time. To test the slanderous accusation
           weighed against Air1, I needed to find a way to gather some evidence.
         </p>
       </div>
@@ -120,7 +120,7 @@
         <p class="text-justify">
           I needed to know what songs are played on the stations, when they are played, and how often they are played. The seemingly-lazy
           way
-          to do this would be to tune into the stations every few minutes and record what song is currently playing on each station. That
+          to do this would be to tune into the stations every few minutes and record what song was currently playing on each station. That
           setup doesn't require programming knowledge or any thought at all, so it sounds like the easy way out. In the long run, however, I
           would have done much more work than was necessary. Instead, I opted for the automated route.
 
@@ -249,16 +249,15 @@
           This looks a little confusing and even overwhelming to our minds, but to a computer this is as clear as language gets.
 
           <br><br>
-          The first step to scraping data off of a website is actually locating the data you want to extract from the HTML code. This is
-          pretty
-          easy; it only takes a quick glance at this section of code to spot two song names: &quot;Your Grace Is Enough&quot;
+          The first step to scrape this data off this page was actually locating the data I wanted to extract from the HTML code. This was
+          pretty easy; it only takes a quick glance at the previous section of code to spot two song names: &quot;Your Grace Is Enough&quot;
           and &quot;Won&#39;t Stop Now&quot;. We can also find the artist field and the album field, two important pieces of information
-          that we can also extract. Now we know the items we need to pull out of this bulky mass of text.
+          that could also be useful to track. Now I knew the items I needed to pull out of this bulky mass of text.
 
           Next, I needed to find what
-          <em><span>contains</span></em><span> data I wanted. In HTML, the most common container is a </span><code>div</code><span> element.
+          <em><span>contains</span></em><span> the data I wanted. In HTML, the most common container is a </span><code>div</code><span> element.
           </span><code>div</code><span> just stands for divider. I found the </span><code>div</code><span> element that encapsulates our
-          song data by looking for a starting tag (</span><code>&lt;div</code><span>) that is less indented than our song data.</span>
+          song data by looking for a starting tag (</span><code>&lt;div</code><span>) that was less indented than our song data.</span>
         </p>
 
         <!--One song HTML-->
@@ -309,7 +308,7 @@
         </div>
 
         <p class="text-justify">
-          Here is the HTML that shows one song. These 26 lines make this one tiny piece of the website:
+          That is the HTML that shows just one song on the page. These 26 lines make this one tiny piece of the website:
         </p>
 
         <!--Matt Maher song small image-->
@@ -317,7 +316,7 @@
 
         <p class="text-justify">
           You can see that there are a lot of layers to show just one small part of a website. The
-          layers have to be there to style the image and the song details, but I ignored them for this project. I just needed the
+          layers are necessary to style the image and the song details, but I ignored them for this project. I just needed the
           identifiers of the outer-most layer of the song's HTML. This is the opening tag of the divider:
         </p>
 
