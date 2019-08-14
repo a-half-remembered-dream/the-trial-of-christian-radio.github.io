@@ -4,6 +4,21 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
+/*Tests*/
+
+.scroll-nav {
+  white-space: nowrap; /* [1] */
+  overflow-x: auto; /* [2] */
+  -webkit-overflow-scrolling: touch; /* [3] */
+  -ms-overflow-style: -ms-autohiding-scrollbar; /* [4] */ }
+
+/* [5] */
+.scroll-nav::-webkit-scrollbar {
+  display: none;
+}
+
+/*Large-scale*/
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,9 +28,13 @@ p {
 }
 
 /*For code*/
-div.python.highlight pre {
+div.highlight pre {
   font-size: 1.1rem;
   font-family: 'Roboto Mono', monospace;
+}
+
+code {
+  color: #cc4848;
 }
 
 #mainNav {
@@ -177,8 +196,14 @@ div.python.highlight pre {
   /*background: gainsboro;*/
 }
 
+#the-transition {
+  background: linear-gradient(to bottom, white, black);
+  width: 100%;
+  height: 300px;
+}
+
 #the-sentence {
-  /*background: linear-gradient(to bottom, gainsboro, black, gainsboro);*/
+  background: black;
 }
 
 .goto::before {
@@ -190,10 +215,16 @@ div.python.highlight pre {
   margin-top: -80px;
 }
 
-.highlight.python {
+.highlight {
   font-family: 'Roboto Mono', monospace;
+  text-align: left;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
+pre {
+  padding: 1.5rem;
+}
 
 /* Images */
 
@@ -222,7 +253,7 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #cc4848;
 }
 
 

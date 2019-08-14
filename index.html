@@ -8,9 +8,8 @@
   <meta name="description" content="">
   <meta name="author" content="Luke Jacobs">
 
-  <title>Mythbusting Christian Radio</title>
+  <title>Christian Radio On Trial</title>
 
-  <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
@@ -20,6 +19,13 @@
         rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom styles for this template -->
   <link href="css/zenburn.css" rel="stylesheet">
@@ -31,11 +37,14 @@
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand navbar-light fixed-top" id="mainNav">
-  <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">Mythbusting Christian Radio</a>
+  <div class="container scroll-nav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">Christian Radio On Trial</a>
     <ul class="navbar-nav">
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="#the-slander-title">The Slander</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#the-site-title">The Site</a>
       </li>
       <li class="nav-item">
         <a class="nav-link js-scroll-trigger" href="#the-script-title">The Script</a>
@@ -53,8 +62,8 @@
 <!-- Header -->
 <header class="masthead">
   <div class="container d-flex h-100 align-items-center">
-    <div class="mx-auto text-center">
-      <h1 class="mx-auto my-0 text-uppercase">The <span class="blood-text">Crimes</span> Of Christian Radio</h1>
+    <div class="mx-auto">
+      <h1 class="text-uppercase">Christian Radio<br>On <span class="blood-text">Trial</span></h1>
     </div>
   </div>
 </header>
@@ -66,58 +75,282 @@
       <div class="col-lg-10 mx-auto">
         <h2 class="text-black mb-4 goto" id="the-slander-title">The Slander</h2>
         <p class="text-black text-justify">
-          Christian radio has been slandered. The world's most credible news agency, the <a href="https://babylonbee.com
-          /news/close-call-this-christian-radio-dj-accidentally-played-the-same-song-for-3-weeks-straight-but-luckily-no
-          -one-noticed">Babylon Bee</a>, has charged Christian radio with playing bland, repetitive music. This is a
-          serious accusation, and it deserves our attention - just enough to read this webpage. Accusations can be
-          thrown around all day, but none will be meaningful without hard evidence. To test the sentence weighed against
-          Christian radio, we need to find a way to gather some evidence.
+          The Christian radio station Air1 has been slandered. I know ... I also cried when I heard the news. The world's most credible news
+          agency, the <a href="https://babylonbee.com">Babylon Bee</a>, has charged Christian radio with playing bland, repetitive music.
+          <a href="https://babylonbee.com/news/report-air1-still-top-alternative-good-music">Not once</a>,
+          <a href="https://babylonbee.com/news/close-call-this-christian-radio-dj-accidentally-played-the-same-song-for-3-weeks-straight-but
+          -luckily-no-one-noticed">not twice</a>, but <a href="https://babylonbee.com/news/christian-radio-station-threatens-to-play-good-
+          good-father-on-repeat-until-pledge-drive-goal-is-met">three times</a>. These are serious accusations, and I guess they deserve our
+          attention.
+
+          <br><br>
+          It's not a new thing to harp on Christian music. Christian contemporary musicians aren't very respected by secular media, and
+          sometimes not even by Christians. There's a list of reasons why: proclaiming bad theology, conforming to culture,
+          having a desperate lack of creativity, and so on. For a summer project, I could have assessed the quality of Christian
+          contemporary music as
+          a whole, but that would have been a lot of work to do in one summer and it sounded really boring. So I chose the easier option,
+          assessing the quality of Christian <i>radio</i>, using programming. Is it actually as repetitive as everyone makes it out to be?
+
+          <br><br>
+          The Babylon Bee can throw around accusations all day, but we need hard evidence to fact check their claims. We need objective
+          criteria to
+          settle this debate.
+          What if there is some truth to this slander? What if the Air1 that we all don't know and don't love isn't what we think it is?
+
+          <br><br>
+          We must perform an experiment to either clear the name of Christian radio, or find a solution to improve it.
+          The experiment needs to compare Air1 to other Christian radio stations and also to secular radio stations. With the help of
+          computers,
+          I did this expirement. I chose KLOVE as a sample of Christian radio stations, and KISS FM - "Chicago's #1 Hit Music Station" - as
+          a sample of meaningless garbage ... I mean secular pop radio. My dependent variable was the various statistics on the songs they
+          play, which means I needed to find a way to monitor these three stations at the same time. To test the slanderous accusation
+          weighed against Air1, I needed to find a way to gather some evidence.
         </p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- The Script -->
-<section id="the-script" class="py-5">
+<!-- The Site -->
+<section id="the-site" class="the-site-section text-center py-5">
   <div class="container">
-    <!--Intro-->
-    <div class="row text-center">
+    <div class="row">
       <div class="col-lg-10 mx-auto">
-        <h2 class="mb-4 goto" id="the-script-title">The Script</h2>
-        <p class="text-justify mb-5">
-          We need to know what songs are played on the stations, when they are played, and how often they are played.
-          The 20th century way to do this would be to tune into the radio every few minutes to record what song is
-          currently playing. There's nothing wrong with doing this, except for the fact that it will eat up a large
-          chunk of the little time you have left in life, time that is every-so-slowly slipping through your fingers.
-          Given this frustrating reality, we are going to try it the modern way. The 21st century way is to turn to the
-          time-saving wonders of automation.
+        <h2 class="mb-4 goto" id="the-site-title">The Site</h2>
+        <p class="text-justify">
+          I needed to know what songs are played on the stations, when they are played, and how often they are played. The seemingly-lazy
+          way
+          to do this would be to tune into the stations every few minutes and record what song is currently playing on each station. That
+          setup doesn't require programming knowledge or any thought at all, so it sounds like the easy way out. In the long run, however, I
+          would have done much more work than was necessary. Instead, I opted for the automated route.
 
-          Automating a computer-related task can be as simple as writing a small script. I have chosen the scripting
-          language Python for its simplicity.
-
-          Before we starting writing code, we need to ask the question: *what is a website made of anyway?* Mostly bits
-          and pieces. The foundation of any website is HTML, which is what we want for this project. HTML also includes
-          links to other types of information, like CSS code to make the HTML pretty, Javascript to make the browser do
-          tasks and make the HTML change, and embedded content like ads and YouTube videos that load content from other
-          servers.
-
-          Most importantly, HTML describes how all the text on a website is structured. This is important because this
-          is the Air1 website that we need to take data from:
-
+          <br><br>
+          The easiest way to record all the songs played is not actually to use the radio, but the internet. Air1 updates a page on their
+          website with recently played songs every few minutes, so all I needed to do is reload that page and grab the information that it
+          showed me. Simple, right?
         </p>
         <img class="fit mb-5 ml-lg-2" src="imgs/air1_recently_played.png" alt="Air1 recently played songs">
-        <p>
+        <p class="text-justify">
 
-          To distinguish between songs, we really just need the song title, but it is also useful to have the album name
-          and the artist name, in case we want to stats on albums or artists.
+          Not really. Before we get to the code, we need to ask the question: <i>what is a website made of anyway?</i> Websites are
+          built on code from many different programming languages. The foundation of any website is HTML, the language that lays out the
+          structure of the content we see on our screens. HTML includes links to other types of information, like CSS code to make the HTML
+          pretty, Javascript to make the browser do tasks and make the HTML change, and embedded content like ads and YouTube videos that
+          load content from other servers.
 
+          <br><br>
+          A task like reloading a website and reading a few words from the screen sounds easy to us humans, but that's because our brains
+          have incredible visual processing abilities. Computers can't see like we can, but they are awesome at searching through text.
+          Thankfully,
+          this is exactly what I needed it to do in this situation. I didn't feed the computer an image of the website our browsers show us,
+          but instead I fed it the <i>underlying structure</i> of the webpage. I fed it HTML.
+
+          <br><br>
+          To us humans, HTML looks large and ugly. Here's a section of HTML I took from the "Recently Played" page on Air1's website:
+        </p>
+
+        <!--Full HTML-->
+        <div class="highlight"><pre style="font-size: 1rem;"><span></span><span class="o">&lt;</span><span class="n">div</span> <span
+                class="n">class</span><span class="o">=</span><span class="s2">&quot;recently-played-wrapper mb-5&quot;</span><span
+                class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;song-wrapper&quot;</span> <span
+                  class="n">style</span><span class="o">=</span><span class="s2">&quot;margin-bottom: 20px;&quot;</span><span
+                  class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;</span><span
+                  class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;col-sm-4&quot;</span><span
+                  class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;d-flex h-100&quot;</span><span
+                  class="o">&gt;</span>
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;album-img w-100&quot;</span><span class="o">&gt;</span>
+                        <span class="o">&lt;</span><span class="n">img</span> <span class="n">src</span><span class="o">=</span><span
+                  class="s2">&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/1358.jpg&amp;s=250&amp;&quot;</span>
+                        <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;img-responsive lazyload mh-75&quot;</span>
+                        <span class="n">alt</span><span class="o">=</span><span class="s2">&quot;Empty &amp; Beautiful&quot;</span><span
+                  class="o">&gt;</span>
+                    <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;col-sm-8 text-container&quot;</span><span
+                  class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;d-flex h-100&quot;</span><span
+                  class="o">&gt;</span>
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;my-auto w-100&quot;</span><span class="o">&gt;</span>
+                        <span class="o">&lt;</span><span class="n">h4</span><span class="o">&gt;</span><span class="n">Your</span> <span
+                  class="n">Grace</span> <span class="n">Is</span> <span class="n">Enough</span><span class="o">&lt;/</span><span class="n">h4</span><span
+                  class="o">&gt;</span>
+                        <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;artist&quot;</span><span class="o">&gt;</span>
+                            <span class="n">Matt</span> <span class="n">Maher</span>
+                        <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                        <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;albumTitle&quot;</span><span class="o">&gt;</span>
+                            <span class="n">Empty</span> <span class="o">&amp;</span> <span class="n">Beautiful</span>
+                        <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                    <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+
+            <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+        <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+    <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+
+    <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;song-wrapper&quot;</span> <span
+                  class="n">style</span><span class="o">=</span><span class="s2">&quot;margin-bottom: 20px;&quot;</span><span
+                  class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;</span><span
+                  class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;col-sm-4&quot;</span><span
+                  class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;d-flex h-100&quot;</span><span
+                  class="o">&gt;</span>
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;album-img w-100&quot;</span><span class="o">&gt;</span>
+                        <span class="o">&lt;</span><span class="n">img</span> <span class="n">src</span><span class="o">=</span><span
+                  class="s2">&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2761.jpg&amp;s=250&amp;&quot;</span>
+                             <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;img-responsive lazyload mh-75&quot;</span>
+                             <span class="n">alt</span><span class="o">=</span><span
+                  class="s2">&quot;Hallelujah Here Below&quot;</span><span class="o">&gt;</span>
+                    <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;col-sm-8 text-container&quot;</span><span
+                  class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;d-flex h-100&quot;</span><span
+                  class="o">&gt;</span>
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;my-auto w-100&quot;</span><span class="o">&gt;</span>
+                        <span class="o">&lt;</span><span class="n">h4</span><span class="o">&gt;</span><span class="n">Won</span><span
+                  class="s1">&#39;t Stop Now&lt;/h4&gt;</span>
+                        <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;artist&quot;</span><span class="o">&gt;</span>
+                            <span class="n">Elevation</span> <span class="n">Worship</span>
+                        <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                        <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;albumTitle&quot;</span><span class="o">&gt;</span>
+                            <span class="n">Hallelujah</span> <span class="n">Here</span> <span class="n">Below</span>
+                        <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                    <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+        <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+    <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+
+    <span class="o">...</span> <span class="n">insert</span> <span class="n">more</span> <span class="n">songs</span> <span
+                  class="o">...</span>
+<span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+</pre>
+        </div>
+
+        <p class="text-justify">
+          This looks a little confusing and even overwhelming to our minds, but to a computer this is as clear as language gets.
+
+          <br><br>
+          The first step to scraping data off of a website is actually locating the data you want to extract from the HTML code. This is
+          pretty
+          easy; it only takes a quick glance at this section of code to spot two song names: &quot;Your Grace Is Enough&quot;
+          and &quot;Won&#39;t Stop Now&quot;. We can also find the artist field and the album field, two important pieces of information
+          that we can also extract. Now we know the items we need to pull out of this bulky mass of text.
+
+          Next, I needed to find what
+          <em><span>contains</span></em><span> data I wanted. In HTML, the most common container is a </span><code>div</code><span> element.
+          </span><code>div</code><span> just stands for divider. I found the </span><code>div</code><span> element that encapsulates our
+          song data by looking for a starting tag (</span><code>&lt;div</code><span>) that is less indented than our song data.</span>
+        </p>
+
+        <!--One song HTML-->
+        <div class="highlight"><pre style="font-size: 1rem;"><span></span><span class="o">&lt;</span><span class="n">div</span> <span
+                class="n">class</span><span class="o">=</span><span class="s2">&quot;song-wrapper&quot;</span> <span
+                class="n">style</span><span class="o">=</span><span class="s2">&quot;margin-bottom: 20px;&quot;</span><span
+                class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;</span><span
+                  class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;col-sm-4&quot;</span><span
+                  class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;d-flex h-100&quot;</span><span
+                  class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;album-img w-100&quot;</span><span
+                  class="o">&gt;</span>
+                    <span class="o">&lt;</span><span class="n">img</span> <span class="n">src</span><span class="o">=</span><span
+                  class="s2">&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/1358.jpg&amp;s=250&quot;</span>
+                         <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;img-responsive lazyload mh-75&quot;</span>
+                         <span class="n">alt</span><span class="o">=</span><span class="s2">&quot;Empty &amp; Beautiful&quot;</span><span
+                  class="o">&gt;</span>
+                <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+        <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;col-sm-8 text-container&quot;</span><span
+                  class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;d-flex h-100&quot;</span><span
+                  class="o">&gt;</span>
+                <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span class="s2">&quot;my-auto w-100&quot;</span><span
+                  class="o">&gt;</span>
+                    <span class="o">&lt;</span><span class="n">h4</span><span class="o">&gt;</span><span class="n">Your</span> <span
+                  class="n">Grace</span> <span class="n">Is</span> <span class="n">Enough</span><span class="o">&lt;/</span><span class="n">h4</span><span
+                  class="o">&gt;</span>
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;artist&quot;</span><span class="o">&gt;</span>
+                        <span class="n">Matt</span> <span class="n">Maher</span>
+                    <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                    <span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;albumTitle&quot;</span><span class="o">&gt;</span>
+                        <span class="n">Empty</span> <span class="o">&amp;</span> <span class="n">Beautiful</span>
+                    <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+                <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+        <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+    <span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="n">div</span><span class="o">&gt;</span>
+</pre>
+        </div>
+
+        <p class="text-justify">
+          Here is the HTML that shows one song. These 26 lines make this one tiny piece of the website:
+        </p>
+
+        <!--Matt Maher song small image-->
+        <img src="imgs/one_song.png" alt="One song" style="max-width: 100%;">
+
+        <p class="text-justify">
+          You can see that there are a lot of layers to show just one small part of a website. The
+          layers have to be there to style the image and the song details, but I ignored them for this project. I just needed the
+          identifiers of the outer-most layer of the song's HTML. This is the opening tag of the divider:
+        </p>
+
+        <div class="highlight">
+          <pre><span></span><span class="o">&lt;</span><span class="n">div</span> <span class="n">class</span><span class="o">=</span><span
+                  class="s2">&quot;song-wrapper&quot;</span> <span class="n">style</span><span class="o">=</span><span class="s2">&quot;margin-bottom: 20px;&quot;</span><span
+                  class="o">&gt;</span></pre>
+        </div>
+
+        <p class="text-justify">
+          Let's take note of how <code>class</code> equals <code>song-wrapper</code>. This is important because I programmed the
+          data-collecting program to "zoom in" on each song using this information. This is like an HTML bookmark.
+
+          <br><br>
+          Now that we have stepped through my reconaissance work, we can move on the engine of the whole operation.
         </p>
       </div>
     </div>
-    <!--Python code-->
-    <div class="row">
-      <div class="col">
+
+  </div>
+</section>
+
+<!-- The Script -->
+<section id="the-script" class="py-5">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-10 mx-auto">
+        <h2 class="mb-4 goto" id="the-script-title">The Script</h2>
+        <p class="text-justify mb-0">
+          Now, let's look through the program I made to gather these songs:
+        </p>
+
+        <!--Full program code-->
         <div class="highlight python"><pre class="p-4"><span></span><span class="k">def</span> <span class="nf">getRecentlyPlayedAIR1</span><span
                 class="p">()</span> <span class="o">-&gt;</span> <span class="n">List</span><span
                 class="p">[</span><span class="n">PlayedSong</span><span class="p">]:</span>
@@ -176,7 +409,6 @@
                   class="n">album</span> <span class="o">=</span> <span class="n">data</span>
         <span class="k">if</span> <span class="n">title</span> <span class="ow">not</span> <span
                   class="ow">in</span> <span class="n">titles</span><span class="p">:</span>
-            <span class="c1"># print(&#39;PlayedSong:\n\ttitle: %s\n\tartist: %s\n\talbum: %s\n&#39; % (title, artist, album))</span>
             <span class="n">titles</span><span class="o">.</span><span class="n">append</span><span
                   class="p">(</span><span class="n">title</span><span class="p">)</span>
             <span class="n">songsProcessed</span><span class="o">.</span><span class="n">append</span><span
@@ -188,183 +420,160 @@
     <span class="k">return</span> <span class="n">songsProcessed</span>
 </pre>
         </div>
-      </div>
-    </div>
-    <!--HTML code-->
-    <div class="row">
-      <div class="col">
-        <div class="highlight"><pre class="p-4"><span></span><span class="ni">&lt;</span>div class=&quot;recently-played-wrapper mb-5&quot;<span
-                class="ni">&gt;</span>
-                    <span class="ni">&lt;</span>div class=&quot;song-wrapper&quot; style=&quot;margin-bottom: 20px;&quot;<span
-                  class="ni">&gt;</span>
-                        <span class="ni">&lt;</span>div class=&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;<span
-                  class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>div class=&quot;col-sm-4&quot;<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>div class=&quot;album-img w-100&quot;<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>img src=&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2720.jpg<span
-                  class="ni">&amp;</span>amp;s=250<span class="ni">&amp;</span>amp;&quot; class=&quot;img-responsive lazyload mh-75&quot; alt=&quot;Living Hope&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>div class=&quot;col-sm-8 text-container&quot;<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>div class=&quot;my-auto w-100&quot;<span
-                  class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>h4<span class="ni">&gt;</span>Till I Found You<span
-                  class="ni">&lt;</span>/h4<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>div class=&quot;artist&quot;<span
-                  class="ni">&gt;</span>
-                                            Phil Wickham
-                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>div class=&quot;albumTitle&quot;<span class="ni">&gt;</span>
-                                            Living Hope
-                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                    <span class="ni">&lt;</span>div class=&quot;song-wrapper&quot; style=&quot;margin-bottom: 20px;&quot;<span
-                  class="ni">&gt;</span>
-                        <span class="ni">&lt;</span>div class=&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;<span
-                  class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>div class=&quot;col-sm-4&quot;<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>div class=&quot;album-img w-100&quot;<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>img src=&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2727.jpg<span
-                  class="ni">&amp;</span>amp;s=250<span class="ni">&amp;</span>amp;&quot; class=&quot;img-responsive lazyload mh-75&quot; alt=&quot;Wide Open&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>div class=&quot;col-sm-8 text-container&quot;<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>div class=&quot;my-auto w-100&quot;<span
-                  class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>h4<span class="ni">&gt;</span>Freedom Hymn<span
-                  class="ni">&lt;</span>/h4<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>div class=&quot;artist&quot;<span
-                  class="ni">&gt;</span>
-                                            Austin French
-                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>div class=&quot;albumTitle&quot;<span class="ni">&gt;</span>
-                                            Wide Open
-                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                    <span class="ni">&lt;</span>div class=&quot;song-wrapper&quot; style=&quot;margin-bottom: 20px;&quot;<span
-                  class="ni">&gt;</span>
-                        <span class="ni">&lt;</span>div class=&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;<span
-                  class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>div class=&quot;col-sm-4&quot;<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>div class=&quot;album-img w-100&quot;<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>img src=&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2806.jpg<span
-                  class="ni">&amp;</span>amp;s=250<span class="ni">&amp;</span>amp;&quot; class=&quot;img-responsive lazyload mh-75&quot; alt=&quot;Haven&#39;t Seen It Yet (Single)&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>div class=&quot;col-sm-8 text-container&quot;<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>div class=&quot;my-auto w-100&quot;<span
-                  class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>h4<span class="ni">&gt;</span>Haven&#39;t Seen It Yet<span
-                  class="ni">&lt;</span>/h4<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>div class=&quot;artist&quot;<span
-                  class="ni">&gt;</span>
-                                            Danny Gokey
-                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>div class=&quot;albumTitle&quot;<span class="ni">&gt;</span>
-                                            Haven&#39;t Seen It Yet (Single)
-                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                    <span class="ni">&lt;</span>div class=&quot;song-wrapper&quot; style=&quot;margin-bottom: 20px;&quot;<span
-                  class="ni">&gt;</span>
-                        <span class="ni">&lt;</span>div class=&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;<span
-                  class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>div class=&quot;col-sm-4&quot;<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>div class=&quot;album-img w-100&quot;<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>img src=&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2283.jpg<span
-                  class="ni">&amp;</span>amp;s=250<span class="ni">&amp;</span>amp;&quot; class=&quot;img-responsive lazyload mh-75&quot; alt=&quot;How Can It Be&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>div class=&quot;col-sm-8 text-container&quot;<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>div class=&quot;my-auto w-100&quot;<span
-                  class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>h4<span class="ni">&gt;</span>O&#39; Lord<span
-                  class="ni">&lt;</span>/h4<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>div class=&quot;artist&quot;<span
-                  class="ni">&gt;</span>
-                                            Lauren Daigle
-                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>div class=&quot;albumTitle&quot;<span class="ni">&gt;</span>
-                                            How Can It Be
-                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                    <span class="ni">&lt;</span>div class=&quot;song-wrapper&quot; style=&quot;margin-bottom: 20px;&quot;<span
-                  class="ni">&gt;</span>
-                        <span class="ni">&lt;</span>div class=&quot;row shadow p-4 mb-5 m-2 bg-white rounded&quot;<span
-                  class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>div class=&quot;col-sm-4&quot;<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>div class=&quot;album-img w-100&quot;<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>img src=&quot;//c.kloveair1.com/Common/Thumbnail.aspx?f=/art/albumart/2283.jpg<span
-                  class="ni">&amp;</span>amp;s=250<span class="ni">&amp;</span>amp;&quot; class=&quot;img-responsive lazyload mh-75&quot; alt=&quot;How Can It Be&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>div class=&quot;col-sm-8 text-container&quot;<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>div class=&quot;d-flex h-100&quot;<span
-                  class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>div class=&quot;my-auto w-100&quot;<span
-                  class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>h4<span class="ni">&gt;</span>O&#39; Lord<span
-                  class="ni">&lt;</span>/h4<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>div class=&quot;artist&quot;<span
-                  class="ni">&gt;</span>
-                                            Lauren Daigle
-                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                        <span class="ni">&lt;</span>div class=&quot;albumTitle&quot;<span class="ni">&gt;</span>
-                                            How Can It Be
-                                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                                <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                            <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-                    <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
-        <span class="ni">&lt;</span>/div<span class="ni">&gt;</span>
+
+        <p class="text-justify mb-0">
+          This is the function that loads the Air1 website, pulls the bookmarked data from it, and puts it into nice containers for us
+          to process later.
+        </p>
+
+        <div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">retrieveAir1Songs</span><span
+                class="p">()</span> <span class="o">-&gt;</span> <span class="n">List</span><span class="p">[</span><span class="n">PlayedSong</span><span
+                class="p">]:</span>
+	<span class="sd">&quot;&quot;&quot;Get a list of the last 5 songs played on Air1.&quot;&quot;&quot;</span>
 </pre>
         </div>
 
+        <p class="text-justify mb-0">
+          The first two lines in our program define a function using the <code>def</code> keyword. This keyword stand for "define," and not
+          surprisingly, it starts every function definition. After the keyword comes the name of the function,
+          <code>retrieveAir1Songs()</code>.
+          In programming languages, we can name our functions whatever makes sense to us, so I named my function what it does. This is yet
+          another advantage programming has over math. One-letter function names are just not as fun as being able to name your hard work
+          <code>doCrazyStuff()</code>, <code>unleashRobotApocalypse()</code>, or <code>eatExoticSauces()</code>, even if your function
+          does none of those things.
+        </p>
+
+        <div class="highlight"><pre><span></span>    <span class="c1"># Output</span>
+    <span class="n">processedSongs</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Get page</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">page</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span
+                  class="n">get</span><span class="p">(</span><span
+                  class="s2">&quot;https://www.air1.com/listen/recently-played&quot;</span><span class="p">,</span> <span
+                  class="n">timeout</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+    <span class="k">except</span> <span class="n">requests</span><span class="o">.</span><span class="n">exceptions</span><span
+                  class="o">.</span><span class="n">Timeout</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s1">&#39;[-] Timeout getting Air1 songs.&#39;</span><span
+                  class="p">)</span>
+        <span class="k">return</span> <span class="p">[]</span>
+</pre>
+        </div>
+
+        <p class="text-justify">
+          Now let's get to the meat of the function - what it actually does. Notice that each of these lines are indented with one tab. This
+          is because they are contained inside the function definition. This is just like how in the function definition of <code>f(x) = 2x
+          + 9</code>, <code>2x + 9</code> is contained within the symbol <code>f</code>. What that function definition means is that for
+          each <code>x</code>, in order to get the corresponding value of <code>f</code>, we need to multiply it by 2 and add 9 to it.
+          Pretty simple. Function definitions in programming languages follow that same pattern. In our case, <code>retrieveAir1Songs</code>
+          is the name of my function and all the indented lines of code underneath are all the steps needed to find its value. Most of the
+          time, math looks more elegant than code, but most of the time, code is more useful than math!
+
+          <br><br>
+          The first thing I needed to do is make a place to put the songs that the program has scraped from the website. I called this place
+          <code>processedSongs</code>,
+          an obvious name for what it is.
+          To allocate this place I simply made an empty list using two brackets with nothing inside of them (<code>[]</code>). This is the
+          variable
+          that will store our 5 songs. Next, the program sends a web request to Air1 with a timeout of 5 seconds. If the program does
+          not get a reply within 5 seconds, the <code>except</code> block is triggered and the function gives up.
+
+          <br><br>
+          This is important to add because we want to be courteous to Air1's servers. If the program kept trying the load the page until it
+          got a response, that would put a burden on the responding server. That's why we say that you "load" a website, because a load is
+          put on the responding server. It has to reply with all the images and text that is seen on that page, so I kept my web requests to
+          a minimum.
+        </p>
+
+        <div class="highlight"><pre><span></span><span class="c1"># Parse HTML</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">parser</span> <span class="o">=</span> <span class="n">BeautifulSoup</span><span class="p">(</span><span class="n">page</span><span
+                  class="o">.</span><span class="n">text</span><span class="p">,</span> <span class="s1">&#39;html.parser&#39;</span><span
+                  class="p">)</span>
+        <span class="n">recently_played</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span
+                  class="n">find</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">,</span> <span
+                  class="n">attrs</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;class&#39;</span><span
+                  class="p">:</span> <span class="s1">&#39;recently-played-wrapper&#39;</span><span class="p">})</span>
+        <span class="n">songsRaw</span> <span class="o">=</span> <span class="n">recently_played</span><span class="o">.</span><span
+                  class="n">findAll</span><span class="p">(</span><span class="s1">&#39;div&#39;</span><span class="p">,</span> <span
+                  class="n">attrs</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;class&#39;</span><span
+                  class="p">:</span> <span class="s1">&#39;song-wrapper&#39;</span><span class="p">})</span>
+    <span class="k">except</span> <span class="ne">AttributeError</span><span class="p">:</span>
+        <span class="k">return</span> <span class="p">[]</span>
+</pre>
+        </div>
+
+        <p class="text-justify">
+          This block of code is encapsulated in a <code>try/except</code> container, which basically means that if something goes wrong in
+          this section, the program won't crash, but the function will just give up and say that no songs can be retrieved. This is
+          important, because if the program does crash, it may be in the middle of the night where I cannot start it again. Remember that I
+          needed to keep this program running 24/7. I wanted to make sure that I my data was not contaminated with a selection bias. If I
+          had only collected data during the day, I would never know if the songs played at night followed a different pattern. The <code>try/except</code>
+          block allows the program to keep going even though there might be some problems, making sure that it collects each one of the
+          songs played on the station.
+
+          <br><br>
+          Inside the error-catching block the program assigns the variable <code>parser</code> to act as an HTML parser. This is where our
+          HTML "bookmarks" come into play. From here, the program can search for my bookmarks to narrow down the data that we want to
+          extract. In
+          the next line, the program narrows down our search to all the recently-played songs on the page. After that, the program collects
+          all the HTML pieces
+          that are <code>div</code> elements (dividers) that have a <code>song-wrapper</code> class. Obviously, the only pieces of HTML that
+          have a <code>song-wrapper</code> class are songs. Now we have successfully narrowed down the HTML that holds our song data.
+        </p>
+
+        <div class="highlight"><pre><span></span><span class="c1"># Iterate through the extracted HTML sections</span>
+    <span class="n">titles</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">song</span> <span class="ow">in</span> <span class="n">songsRaw</span><span
+                  class="p">:</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="n">field</span><span
+                  class="o">.</span><span class="n">strip</span><span class="p">()</span> <span class="k">for</span> <span
+                  class="n">field</span> <span class="ow">in</span> <span class="n">song</span><span class="o">.</span><span
+                  class="n">text</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span
+                  class="s1">&#39;</span><span class="se">\r</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;&#39;</span><span
+                  class="p">)</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span
+                  class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span> <span
+                  class="k">if</span> <span class="n">field</span><span class="o">.</span><span class="n">strip</span><span
+                  class="p">()]</span>
+        <span class="n">title</span><span class="p">,</span> <span class="n">artist</span><span class="p">,</span> <span
+                  class="n">album</span> <span class="o">=</span> <span class="n">data</span>
+        <span class="k">if</span> <span class="n">title</span> <span class="ow">not</span> <span class="ow">in</span> <span
+                  class="n">titles</span><span class="p">:</span>
+            <span class="k">print</span><span class="p">(</span><span class="s1">&#39;PlayedSong:</span><span class="se">\n\t</span><span
+                  class="s1">title: </span><span class="si">%s</span><span class="se">\n\t</span><span class="s1">artist: </span><span
+                  class="si">%s</span><span class="se">\n\t</span><span class="s1">album: </span><span class="si">%s</span><span class="se">\n</span><span
+                  class="s1">&#39;</span> <span class="o">%</span> <span class="p">(</span><span class="n">title</span><span
+                  class="p">,</span> <span class="n">artist</span><span class="p">,</span> <span class="n">album</span><span
+                  class="p">))</span>
+            <span class="n">titles</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span
+                  class="n">title</span><span class="p">)</span>
+            <span class="n">processedSongs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span
+                  class="n">PlayedSong</span><span class="p">(</span><span class="n">title</span><span class="p">,</span> <span class="n">artist</span><span
+                  class="p">,</span> <span class="n">album</span><span class="p">,</span> <span class="s1">&#39;Air1&#39;</span><span
+                  class="p">))</span>
+
+    <span class="k">return</span> <span class="n">processedSongs</span>
+</pre>
+        </div>
+
+        <p class="text-justify">
+          This next snippet of code refines the HTML further. It puts the title, name of the artist, and name of the album into a simple
+          container for me to use later. Then it puts that container into the list we made at the very beginning of the function, <code>processedSongs</code>.
+          Each container that it makes it appends to that list, just like adding another task to your todo list. Finally, it "returns" the
+          list, which means that the rest of our program can now use this information.
+
+          <br><br>
+          Now, all I needed to do is turn on the program and wait.
+
+          <br><br>
+          And wait.
+
+          <br><br>
+          For 10 days.
+        </p>
+
       </div>
+
     </div>
   </div>
 </section>
@@ -373,59 +582,77 @@
 <section id="the-stats" class="py-5">
   <div class="container">
     <div class="row">
-      <div class="col">
+      <div class="col-lg-10 mx-auto">
         <h2 class="mb-4 text-center goto" id="the-stats-title">The Stats</h2>
         <p>
-          Here is a graph of the times where the song "Symphony" by the artist "Switch" was played on Air1.
+          After more than a week of running the program, I finally had my data. And, boy, was it juicy stuff. First, let's look at the most
+          popular song on Air1 at the time, "Symphony" by "Switch." This graph shows when it is played on Air1:
         </p>
       </div>
     </div>
     <div class="row">
-      <div class="col">
-        <img class="fit ml-4 mb-5" src="graphs/symphony_play_times2.png" alt="Figure 1">
+      <div class="col-lg-10 mx-auto">
+        <h3 class="text-center mt-5 mb-0"><b>Exhibit A</b></h3>
+        <img class="fit ml-4 mb-5" src="graphs/symphony_play_times3.png" alt="Figure 1">
         <p class="text-justify">
 
-          As you can see, Air1 *loves* to play this song - to my pain. This graph confirms my theory that Air1 plays
-          this song way too much. It's not that I have chosen unlucky times to tune in, but that Air1 has a problem.
-          (It's not me, it's you, Air1!)
+          As you can see, Air1 <i>loves</i> to play this song - to my <i>pain</i>. The graph confirms my theory that Air1 plays
+          this song way too much. When I started getting sick of listening to it every time I got in the car, I wondered if it was just
+          because I was listening in the
+          mornings, and the station was playing popular songs more often in the mornings. This graph disproves that. Air1 has an addiction
+          to this song, and no time of day is safe from its tyrannical melody.
 
           <br><br>
-          (There are a few points on the graph where the song is "played" almost back-to-back. These are errors in my
-          song-stitching algorithm. Sometimes when the script checks the Air1 recently-added page, it adds a duplicate
-          song. However, these errors are easy to spot.)
+          That brings us to another observation. Air1 plays the same music at every time of the day. It doesn't play slower music at night,
+          or wake-up music in the mornings; it's all the same. Once a song has been played, the station puts it on what I can only describe
+          as a "cooldown." The more popular the song, the shorter the cooldown. Once that wait time is up, the station plays the song again,
+          just like clockwork.
 
           <br><br>
-          This pattern would be understandable if this song was recently released, but Air1 started playing this song
-          *at least two weeks* before I started collecting this data. Only recently has the station started playing it
+          This pattern would be understandable if the song was recently released, but Air1 started playing this song
+          <i>at least two weeks</i> before I started collecting this data. Only recently has the station started playing it
           this much. When the song was first played, it was my favorite on Air1, but it was not actually played very
           frequently, even though it deserved to be played more. Air1 mostly ignored the song for the first two weeks.
-          When Air1 actually picked up that people enjoyed the song, the station started playing it on repeat, as the
+          When Air1 actually realized that people enjoyed the song, the station started playing it on repeat, as the
           graph shows. The problem is that they delayed the "launch" of the song - the boost in play frequency - by at
-          least two weeks. This made listeners who liked the song at the beginning become frustrated that the song was
-          not played enough, and listeners at the end become frustrated that the song was being played *too much*. They
-          missed the best opportunity to play the song the most, which was at the *very beginning*. They should have
+          least two weeks. I can imagine that this made listeners who liked the song at the beginning to become frustrated that the song was
+          not played enough, and listeners at the end become frustrated that the song was being played <i>too much</i>. They
+          missed the best opportunity to play the song the most, which was at the <i>very beginning</i>. They should have
           realized the song was going to be popular, sooner.
 
           <br><br>
           The song "Symphony" is a good example of a top 10 song on Air1. As they should, Air1 wants to play the most
-          popular songs the most ... but how often are we talking about? Well, it turns out that the top 10 songs
-          constitute **26.6% of all songs played** on the station at any given time! This means that if you listen to
+          popular songs the most ... but how often are we talking about? Well, according to my data, it turns out that the top 10 songs
+          constitute <b>26.6% of all songs played</b> on the station at any given time! This means that if you listen to
           Air1 for 30 minutes, you will listen to an average of 7.6 songs during that time, so that means that the
-          probability that you will not hear one song from the top 10 is **11.3%**. I hope you're not sick of any of
+          probability that you will not hear one song from the top 10 is <b>11.3%</b>. I hope you're not sick of any of
           those songs!
+        </p>
 
-          <br><br>
+        <h3 class="text-center mt-5 mb-0"><b>Exhibit B</b></h3>
+        <img src="imgs/pie2.png" class="mx-auto" style="display: block; max-width: 100%;" alt="Pie Graph">
+
+        <p class="text-justify mx-auto mb-5" style="font-size: 1rem; max-width: 50%;">
+          This graph shows the play percentage of each slice of the songs played on Air1. Quarter 1 is the top 25%, quarter 2 is the
+          upper-middle
+          25%, etc.
+        </p>
+
+        <p class="text-justify">
           Air1 has obviously put a priority on playing the newest, most popular songs and has neglected to play
-          lesser-known songs. Interesting business choice. There's nothing wrong with that, except for that Air1's most
-          regular listeners have got to be bored out of their minds or have just given up on caring. Now, I'm not a
+          lesser-known songs. Interesting business choice. There's nothing wrong with that, except that Air1's most
+          regular listeners are almost certainly bored out of their minds or have just given up on caring. Now, I'm not a
           businessman, but I do know that's is not a great idea for a business to prioritize its least loyal customers
           at the expense of its most loyal customers. This is what Air1 is doing by playing their top songs this often.
 
           <br><br>
           Now, when I saw these results I admit that I thought the verdict was made. After all, this is egregious
-          repetition! But sometimes it is best to step back and look at the big picture, and this is what you see:
+          repetition! But let's look at the other two stations. If you step back and look at the big picture, and this is what you see:
         </p>
+
+        <h3 class="text-center mt-5 mb-0"><b>Exhibit C</b></h3>
         <img class="fit mb-sm-5 mb-lg-0 ml-lg-2" src="graphs/frequency_comparison_final.png">
+
         <p class="text-justify mb-5">
           These are what I call the "frequency curves" of each station. These graphs show us the big picture of how
           often a song of a certain popularity is played on the station.
@@ -436,10 +663,9 @@
           songs played). As it should be, there is a negative correlation between the popularity ranking of a song (the
           x axis) and the times it is played (the y axis).
         </p>
-        <img class="fit mb-sm-5 mb-lg-0 ml-lg-5" src="imgs/dust_devil_small.jpg" alt="A dust devil">
-        <!--        <img class="fit mb-sm-5 mb-lg-0 ml-lg-5 pt-3" src="imgs/city_sizes_small.jpg" alt="Text" style="float: right;">-->
+        <img class="fit mb-4 ml-md-5" src="imgs/dust_devil_small.jpg" alt="A dust devil">
         <p class="text-justify mb-3">
-          But the slope of these curves are just ridiculous! This is a type of **power-law distribution**, a pattern
+          This is a type of <b>power-law distribution</b>, a pattern
           that arises when a small minority of subjects hold the majority of a certain quantity. This pattern is seen
           everywhere in our world and it pops us in the most random places. Here are a few examples of phenomena that
           follow the power-law pattern: the distribution of wealth, the distribution of the mass of stars in the
@@ -450,21 +676,29 @@
 
           <br><br>
           Back to the song frequency distribution. These stations aren't wrong to use a power-law distribution; the
-          problem is the **bend** in the curve.
+          problem is the <b>bend</b> in the curve. This is the curve that I would like to see radio stations use:
         </p>
+        <h3 class="text-center mt-5 mb-0"><b>Exhibit D</b></h3>
         <img class="fit mb-sm-5 mb-lg-0 ml-lg-5" src="graphs/frequency_comparison_final_markup.png"
              alt="Frequency comparison graph with tails labeled">
         <p class="text-justify mb-3">
-          You can also infer the size of the song collection of each station from how long the "tails" of each line
-          extend. I collected data from KISS's website for about a third of the time as Air1 and KLOVE, so if I wanted
-          to quantitatively compare the size of each station's music collection, I should collect data on KISS for a
-          little longer. All I really care about, however, is a qualititive comparison of which station plays *more*
-          songs, and it looks settled that the song collection of KISS is at least the same as or smaller than Air1's
-          collection.
+          I believe that almost all radio stations should adopt this curve. From a business standpoint, this is optimal, because it gives
+          listeners what they want. New listeners still get a good taste of the most popular music, because the curve still peaks at the
+          y-axis, while regular listeners get a good taste of variety because the curve's rise is not too steep. If only radio stations
+          could just use math to make their decisions! The world would be a better place for all radio listeners!
 
           <br><br>
-          These results are surprising! Christian radio might deserve some due criticism about its boring repetition,
-          but if we are being fair, secular stations like KISS deserve that same complaint too.
+          We can also infer the size of the song collection of each station from how long the "tails" of each line
+          extend. I collected data from KISS's website for about a third of the time as Air1 and KLOVE, so if I wanted
+          to quantitatively compare the size of each station's music collection, I should have collected data on KISS for a
+          little longer. All I really care about, however, is a <i>qualititive</i> comparison of which station plays <i>more</i>
+          songs, and it looks settled that the song collection of KISS is at least the same as or smaller than Air1's
+          collection, and Air1's collection is smaller than KLOVE's. Not bad for Christian radio, considering that the CCM (Christian
+          Contemporary Music) genre is much smaller than secular pop.
+
+          <br><br>
+          These results are surprising! At the end of the day, Christian radio might deserve some due criticism about its repetition,
+          but if we are being fair, secular stations deserve that same complaint too.
         </p>
       </div>
     </div>
@@ -480,29 +714,74 @@
 <section id="the-sentence" class="py-5">
   <div class="container">
     <div class="row">
-      <div class="col text-center">
-        <h1>Guilty!</h1>
+      <div class="col-lg-10 mx-auto">
+        <h2 class="goto my-5 py-5 text-white" id="the-sentence-title">The Sentence</h2>
+        <p class="text-justify text-white">
+          As this is a trial, we need a verdict. Is Air1 guilty of the accusations weighed against it? I would definitely say yes. Playing
+          the top 10 songs 27% of the time is just lazy. Secular radio stations also do this, i.e. KISS, but that does
+          not excuse anything. If anything, Christian radio should stand out in quality from secular radio. After all, Christians should make
+          the best art, because we know the Artist. Our work is a reflection of our worldview, so Christian radio needs to step up their game. Changing
+          something as simple as how often certain songs are played can make big improvements to the quality of the station, and it confuses
+          me why these changes haven't already been made.
+
+          <br><br>
+          Christian music doesn't have to be sentenced to the corner of the music industry. Christian radio stations are the face of
+          Christian music, so they need to represent the genre well. There are great Christian artists that Christian
+          radio stations simply won't play, even though their songs are more than qualified to be played on their stations. Those artists produce
+          songs that don't fit the scheme of the average CCM song, but those creative, boundary-breaking artists are what is needed to restore
+          the name of Christian music. Until Christian radio stations accept that, I guess we'll all have to listen to Chris Tomlin's "Good Good Father"
+          for the 57th time today.
+        </p>
+        <p class="text-center mb-5 text-white" style="height: 600px;">
+          <br><br><br>
+          The court is adjourned.
+
+          <br><br><br>
+          And, as always,
+
+          <br><br><br>
+          thanks for reading.
+        </p>
       </div>
     </div>
   </div>
 </section>
 
+<!--<section id="the-sentence" class="py-5" style="height: 1300px;">-->
+<!--  <div class="container">-->
+<!--    <div class="row">-->
+<!--      <div class="col-lg-10 mx-auto">-->
+<!--        <h2 class="goto my-5 py-5 text-white" id="the-sentence-title">The Sentence</h2>-->
+<!--        <p class="text-justify text-white">-->
+<!--          In a normal trial we would gather together a jury of these radio stations' peers, but that's hard, so for simplicity's sake I'm-->
+<!--          just-->
+<!--          going to adopt the role of judge, jury, and executioner. I formally sentence these radio stations to 10 years of listening to-->
+<!--          Chris-->
+<!--          Tomlin's "Good Good Father" on loop.-->
+<!--        </p>-->
+<!--        <p class="text-center mb-5 text-white">-->
+<!--          <br><br><br>-->
+<!--          The court is adjourned.-->
+
+<!--          <br><br><br>-->
+<!--          And, as always, thanks for reading.-->
+<!--        </p>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+
 <!-- Footer -->
 <footer class="bg-black small text-center text-white-50">
   <div class="container">
-    Copyright &copy; Your Website 2019
+    Written by Luke Jacobs, 2019. For more information, visit my Github account,
+    <a href="https://github.com/Luke-Jacobs/Radio-Song-Analysis">Luke-Jacobs</a>.
   </div>
 </footer>
 
-<!-- Bootstrap core JavaScript -->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<!-- Plugin JavaScript -->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
 <!-- Custom scripts for this template -->
 <script src="js/grayscale.js"></script>
+
 
 </body>
 
